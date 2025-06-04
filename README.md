@@ -110,7 +110,7 @@ Phía giao diện người quản trị:
 - Mã Số sinh viên: 22139063, 22139062
 - Trường: Đại học Sư Phạm Kỹ Thuật Thành Phố Hồ Chí Minh
 - Giảng viên hướng dẫn: ThS. Trương Quang Phúc
-- Youtube: https://youtu.be/_eXIkMHF1BQ
+- Youtube: https://www.youtube.com/watch?v=RMcZxA5p-UM
 - Liên hệ: thaivm14072004@gmail.com
 
 
