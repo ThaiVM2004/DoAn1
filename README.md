@@ -105,11 +105,15 @@ Phía giao diện người quản trị:
 - Bước 1, các bạn truy cập vào folder đã được tải về: DoAn1-main.zip (đã giải nén) -> mở folder VoMinhThai-22139063-PhanThanhThao-22139062.
 - Bước 2, tiến hành mở /hardware/schematic.pdf.
 - Bước 3, đọc sơ đồ nguyên lý và kết nối mạch như sơ đồ, có thể bỏ qua khối nguồn (khối này cấp nguồn hệ thống), bạn có thể nối các khối trong đó lại bỏ qua khối nguồn, thay vào đó cắm nguồn vào chân USB Type C trên vi điều khiển ESP32 Devkit.
-- Bước 4, truy cập vào /firmware và tiến hành tải các file .ino tương ứng về rồi nạp có cho vi điều khiển tuy nhiên trước khi nạp code cần thay đổi một số thứ như sau:
-  Trong code ESP-CAM
+- Bước 4, truy cập vào /firmware và tiến hành tải các file .ino tương ứng về rồi nạp có cho vi điều khiển tuy nhiên trước khi nạp code cần thay đổi một số thứ như sau (tại code ESP32-CAM):
   - Đầu tiên thông tin wifi: ``` const char* ssid = "Minh Thai";
                                 const char* password = "01202728759"; ```
-  - Thứ hai: Thay đoạn url để đẩy dữ liệu từ vi diều khiển lên ``` const char* googleScriptId ="https://script.google.com/macros/s/AKfycbx5QKuQZAvtdk5Q6iZ9LmWkVbuHb3sVTyVAgXXFDLXu2BUw-lPJx8uBxhpI-P928gM/exec";```
+  - Thứ hai: Thay đoạn url ``` const char* googleScriptId ="https://script.google.com/macros/s/AKfycbx5QKuQZAvtdk5Q6iZ9LmWkVbuHb3sVTyVAgXXFDLXu2BUw-lPJx8uBxhpI-P928gM/exec";```
+    - Các bước thay đổi:
+      - Truy cập trang: Google Sheets vào tạo một Sheets mới, đồng thời đặt tên các header: Date, Time, ID, Fullname
+      - Sau đó chọn vào tiện ích/ extensions -> Apps Script để mở trang tích hợp Script vào cho bảng tính
+        ![image](https://github.com/user-attachments/assets/dbb79fef-1e7e-4b1e-905b-714e9c9413d9)
+  
 ## Tác giả 
 - Họ và tên: Võ Minh Thái, Phan Thanh Thảo
 - Sinh viên ngành: Hệ thống nhúng và IoT
