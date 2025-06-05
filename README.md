@@ -106,8 +106,8 @@ Phía giao diện người quản trị:
 - Bước 2, tiến hành mở /hardware/schematic.pdf.
 - Bước 3, đọc sơ đồ nguyên lý và kết nối mạch như sơ đồ, có thể bỏ qua khối nguồn (khối này cấp nguồn hệ thống), bạn có thể nối các khối trong đó lại bỏ qua khối nguồn, thay vào đó cắm nguồn vào chân USB Type C trên vi điều khiển ESP32 Devkit.
 - Bước 4, truy cập vào /firmware và tiến hành tải các file .ino tương ứng về rồi nạp có cho vi điều khiển tuy nhiên trước khi nạp code cần thay đổi một số thứ như sau (tại code ESP32-CAM):
-  - Đầu tiên thông tin wifi: ``` const char* ssid = "Minh Thai"\n;
-                                const char* password = "01202728759"; ```
+  - Đầu tiên thông tin wifi: ``` const char* ssid = "Minh Thai";``` <br>
+                                ```const char* password = "01202728759";```
   - Thứ hai: Thay đoạn url ``` const char* googleScriptId ="https://script.google.com/macros/s/AKfycbx5QKuQZAvtdk5Q6iZ9LmWkVbuHb3sVTyVAgXXFDLXu2BUw-lPJx8uBxhpI-P928gM/exec";```
     - Các bước thay đổi:
       - Truy cập trang: Google Sheets vào tạo một Sheets mới, đồng thời đặt tên các header: Date, Time, ID, Fullname
