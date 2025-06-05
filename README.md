@@ -19,7 +19,6 @@ Ngoài phần nhúng, hệ thống còn được bổ sung một phần mềm gi
 
 Với kiến trúc phần cứng phân tán, phần mềm linh hoạt và tích hợp nền tảng đám mây, hệ thống này không chỉ phù hợp triển khai trong các doanh nghiệp, nhà máy, trường học mà còn có tiềm năng mở rộng thành một sản phẩm thương mại hóa ứng dụng trong lĩnh vực quản lý nhân sự thông minh.
 
-</div>
 
 ## Tính năng của hệ thống
 
@@ -42,8 +41,6 @@ Với kiến trúc phần cứng phân tán, phần mềm linh hoạt và tích 
 ![image](https://github.com/user-attachments/assets/0f338bc4-bb6e-4527-bbe3-edd5faf5c69e)
 
 
-
-
 Trong đó: 
 
 - Khối hiển thị: Có nhiệm vụ hiển thị các thông báo, trạng thái và hướng dẫn thao tác cho người dùng trong quá trình điểm danh và đăng ký.
@@ -60,7 +57,7 @@ Trong đó:
 - Khối nguồn: Cung cấp điện năng ổn định cho toàn bộ hệ thống hoạt động liên tục và hiệu quả.
 
 ## Phần cứng sử dụng cho hệ thống
-
+<p align = "center"
 | Thiết bị        | Mô tả                                    |
 | --------------- | ---------------------------------------- |
 | STM32F103C8T6   | Thu thập cảm biến, điều khiển OLED       |
@@ -70,6 +67,8 @@ Trong đó:
 | RFID RC522      | Đọc thẻ MIFARE 13.56 MHz                 |
 | OLED SH1106     | Hiển thị trạng thái                      |
 | Thẻ nhớ microSD | Lưu ảnh tạm thời từ ESP32-CAM            |
+
+</p>
 
 ## Phần mềm của hệ thống
 
@@ -114,7 +113,7 @@ Phía giao diện người quản trị:
 - Youtube: https://www.youtube.com/watch?v=RMcZxA5p-UM
 - Liên hệ: thaivm14072004@gmail.com
 
-</p>
+</div>
 
 
 
