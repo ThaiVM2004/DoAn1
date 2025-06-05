@@ -57,7 +57,7 @@ Trong đó:
 - Khối nguồn: Cung cấp điện năng ổn định cho toàn bộ hệ thống hoạt động liên tục và hiệu quả.
 
 ## Phần cứng sử dụng cho hệ thống
-<p align = "center">
+<div align = "center">
 | Thiết bị        | Mô tả                                    |
 | --------------- | ---------------------------------------- |
 | STM32F103C8T6   | Thu thập cảm biến, điều khiển OLED       |
@@ -68,7 +68,7 @@ Trong đó:
 | OLED SH1106     | Hiển thị trạng thái                      |
 | Thẻ nhớ microSD | Lưu ảnh tạm thời từ ESP32-CAM            |
 
-</p>
+</div>
 
 ## Phần mềm của hệ thống
 
