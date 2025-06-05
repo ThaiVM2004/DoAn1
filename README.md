@@ -3,7 +3,7 @@
 
 ## Giới thiệu
 
-<p align="justify"> Hệ thống chấm công tự động thông minh là một giải pháp ứng dụng công nghệ nhúng và Internet of Things (IoT) nhằm hiện đại hóa quy trình quản lý nhân sự, thay thế các phương pháp điểm danh thủ công còn tồn tại nhiều hạn chế như gian lận, chấm hộ, sai lệch dữ liệu và khó đồng bộ.
+<div align="justify"> Hệ thống chấm công tự động thông minh là một giải pháp ứng dụng công nghệ nhúng và Internet of Things (IoT) nhằm hiện đại hóa quy trình quản lý nhân sự, thay thế các phương pháp điểm danh thủ công còn tồn tại nhiều hạn chế như gian lận, chấm hộ, sai lệch dữ liệu và khó đồng bộ.
 
 Dự án được thiết kế với mục tiêu xây dựng một hệ thống điểm danh xác thực hai lớp: sử dụng thẻ từ RFID để nhận dạng mã định danh nhân viên và cảm biến vân tay để xác thực sinh trắc học cá nhân. Để tăng cường tính minh bạch và trực quan, hệ thống còn tích hợp ESP32-CAM để chụp ảnh người điểm danh ngay tại thời điểm xác thực. Toàn bộ thông tin (UID, họ tên, thời gian, ảnh) sau khi xử lý sẽ được tự động đồng bộ lên nền tảng lưu trữ Google Sheets thông qua kết nối Wi-Fi.
 
@@ -19,7 +19,7 @@ Ngoài phần nhúng, hệ thống còn được bổ sung một phần mềm gi
 
 Với kiến trúc phần cứng phân tán, phần mềm linh hoạt và tích hợp nền tảng đám mây, hệ thống này không chỉ phù hợp triển khai trong các doanh nghiệp, nhà máy, trường học mà còn có tiềm năng mở rộng thành một sản phẩm thương mại hóa ứng dụng trong lĩnh vực quản lý nhân sự thông minh.
 
-</p>
+</div>
 
 ## Tính năng của hệ thống
 
